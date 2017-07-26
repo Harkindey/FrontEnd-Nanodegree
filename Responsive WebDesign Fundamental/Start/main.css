@@ -141,7 +141,6 @@ main {
  */
 
 .hero {
-  float: left;
   width: 100%;
   position: relative;
   background-image: url("./images/dog.jpg");
@@ -169,8 +168,6 @@ main {
  */
 
 .top-news {
-  float: right;
-  width: 100%;
   height: 300px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
@@ -216,8 +213,6 @@ main {
  */
 
 .scores {
-  width: 100px;
-  float: left;
   padding-top: 1em;
 }
 
@@ -265,8 +260,6 @@ main {
  */
 
 .weather {
-  float: right;
-  width: 100%;
   padding: 1em;
 }
 
@@ -316,7 +309,7 @@ main {
 
 /*
  *
- * Weather
+ * Recent News
  *
  */
 
@@ -343,7 +336,7 @@ main {
 .snippet__title a {
   text-decoration: none;
   color: #666;
-  padding: 1.5em;
+  padding: 1.5em inherit;
 }
 
 .snippet__title a:hover,
