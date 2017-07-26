@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Framework Test Page</title>
+  <script type="text/javascript" src="./js/jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="framework/css/main.css">
+  <link rel="stylesheet" href="../bootstrap-prestructure/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+  <div class="grid">
+    <div class="row">
+      <div class="col-6"><img id="logo" src="images/udacity-logo.png" alt="Logo"></div>
+      <div class="col-6" id="name">
+        <div class="grid">
+          <div><h1>AKINDE EMMANUEL</h1></div>
+          <div><h3>REACT-NATIVE NINJA</h3></div>
+      </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-12"><img id="work" src="images/meta.png" alt=""></div>
+    </div>
+    <div class="row">
+      <div class="col-12"><h2>Featured Works</h2></div>
+    </div>
+    <div class="row">
+      <div class="col-4"><img id="work" src="images/work.png" alt="jk" data-toggle="modal" data-target="#myModal" ></div>
+      <div class="col-4"><img id="work" src="images/work.png" alt="ff" data-toggle="modal" data-target="#myModal" ></div>
+      <div class="col-4"><img id="work" src="images/work.png" alt="fl" data-toggle="modal" data-target="#myModal" ></div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/work.png">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
