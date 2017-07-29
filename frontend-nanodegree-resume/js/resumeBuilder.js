@@ -16,6 +16,8 @@ This is empty on purpose! Your code to build the resume will go here.
    "skills" : ['React.js', 'React-Native', 'Node.js', 'Vue.js']
  }
 
+ var FormattedPicture = HTMLbioPic.replace("%data%", bio.biopic);
+ $('#header').append(FormattedPicture);
 
  var formattedName = HTMLheaderName.replace("%data%", bio.name);
  $("#header").append(formattedName);
@@ -34,3 +36,6 @@ $('#header').append(formattedGithub);
 
 var formattedTwitter = HTMLtwitter.replace("%data%", bio.contact.twitter);
 $('#header').append(formattedTwitter);
+
+var FormattedLocation = HTMLlocation.replace("%data%", bio.contact.location);
+$('#header').append(FormattedLocation);
